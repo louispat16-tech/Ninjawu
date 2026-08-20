@@ -98,13 +98,25 @@ div a:hover {
 
 .p1 {
     top: 150px;
-    left: 100px;
+    left: 0px;
     width: 300px;
 }
 
 .p2 {
+    top: 150px;
+    left: 370px;
+    width: 100px
+}
+
+.p3 {
     top: 280px;
-    left: 350px;
+    left: 0px;
+    whidth: 200
+}
+
+.p4 {
+    top: 280px;
+    left: 325px;
     width: 300px;
 }
 
