@@ -16,10 +16,10 @@ div a {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  font-size: 60px; /* Rend l'écriture beaucoup plus grosse */
+  font-size: 30px; /* Rend l'écriture beaucoup plus grosse */
   border: 3px solid red; /* Ajoute une bordure rouge */
-flex-direction: calumn;
-justify-content: space-between
+  flex-direction: calumn;
+  justify-content: space-between
 }
 
 /* Effet quand la souris passe sur le bouton */
