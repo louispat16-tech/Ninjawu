@@ -1,25 +1,25 @@
 body {
     background-color: #000080;
-    text-align: left; /* Pour tout aligner à gauche */
-    padding-left: 50px; /* Espace de sécurité sur la gauche */
 }
 
 h1 {
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 /* Style de ton gros bouton "Faire un parcours" */
 div a {
-  display: inline-block;
+  display: flex;
   padding: 25px 50px; /* Donne l'épaisseur et la taille d'un bouton */
   background-color: #000050; /* Fond un peu plus sombre que la page */
   color: red; /* Écriture en rouge */
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  font-size: 24px; /* Rend l'écriture beaucoup plus grosse */
+  font-size: 60px; /* Rend l'écriture beaucoup plus grosse */
   border: 3px solid red; /* Ajoute une bordure rouge */
+flex-direction: calumn;
+justify-content: space-between
 }
 
 /* Effet quand la souris passe sur le bouton */
