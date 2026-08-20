@@ -82,9 +82,9 @@ div a:hover {
 /* Le ninja (départ en haut à gauche) */
 #joueur {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 30px;
+    top: 140px;
+    left: 25px;
+    font-size: 45px;
 }
 
 /* Les plateformes */
@@ -110,7 +110,7 @@ div a:hover {
 .p3 {
     top: 280px;
     left: 0px;
-    whidth: 200;
+    whidth: 200px;
 }
 
 .p4 {
