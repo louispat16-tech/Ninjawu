@@ -5,12 +5,12 @@ body {
   div a {
   display: inline-block;
   padding: 30px 70px;
-  margin: 10px
-  background_color: #000080;
+  margin: 10px;
+  background-color: #000080;
   color: red;
   text-decoration: none;
   border-radius: 5px;
-  font-wheight: bold;
+  font-weight: bold;
   }
   div a:hover{
     background-color: #001080;
