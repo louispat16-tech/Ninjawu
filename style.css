@@ -84,7 +84,7 @@ div a:hover {
     position: absolute;
     top: 100px;
     left: 25px;
-    font-size: 55px;
+    font-size: 60px;
 }
 
 /* Les plateformes */
@@ -122,9 +122,9 @@ div a:hover {
 /* Le coffre */
 .coffre {
     position: absolute;
-    top: 128px;
+    top: 110px;
     left: 230px;
-    font-size: 39px;
+    font-size: 35px;
 }
 
 /* La sortie (en bas à droite) */
