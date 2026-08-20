@@ -19,7 +19,7 @@ h1 {
 /* Style de ton bouton "Niveau 1" */
 div a {
   display: inline-block;
-  padding: 15px 30px; /* Taille du bouton */
+  padding: 30px 45px; /* Taille du bouton */
   background-color: #000050; /* Fond un peu plus sombre */
   color: red; /* Écriture en rouge */
   text-decoration: none;
