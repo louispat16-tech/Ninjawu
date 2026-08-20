@@ -56,3 +56,70 @@ div a:hover {
   background-color: red;
   color: #000080;
 }
+/* Style spécifique pour la page de niveau */
+.body-niveau {
+    background-color: #000040;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Le grand cadre du jeu (l'arène) */
+.zone-jeu {
+    position: relative; /* Indispensable pour placer les objets où l'on veut dedans */
+    width: 800px;
+    height: 450px;
+    background-color: #000020;
+    border: 4px solid red;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Le ninja (départ en haut à gauche) */
+#joueur {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+
+/* Les plateformes */
+.plateforme {
+    position: absolute;
+    background-color: red;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.p1 {
+    top: 150px;
+    left: 100px;
+    width: 300px;
+}
+
+.p2 {
+    top: 280px;
+    left: 350px;
+    width: 300px;
+}
+
+/* Le coffre */
+.coffre {
+    position: absolute;
+    top: 115px;
+    left: 230px;
+    font-size: 24px;
+}
+
+/* La sortie (en bas à droite) */
+.sortie {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 35px;
+}
