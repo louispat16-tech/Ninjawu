@@ -1,17 +1,29 @@
 body {
     background-color: #000080;
-    text-align: center;
+    text-align: left; /* Pour tout aligner à gauche */
+    padding-left: 50px; /* Espace de sécurité sur la gauche */
 }
-  div a {
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+/* Style de ton gros bouton "Faire un parcours" */
+div a {
   display: inline-block;
-  padding: 30px 70px;
-  margin: 10px;
-  background-color: #000080;
-  color: red;
+  padding: 25px 50px; /* Donne l'épaisseur et la taille d'un bouton */
+  background-color: #000050; /* Fond un peu plus sombre que la page */
+  color: red; /* Écriture en rouge */
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
-  }
-  div a:hover{
-    background-color: #001080;
-  }
+  font-size: 24px; /* Rend l'écriture beaucoup plus grosse */
+  border: 3px solid red; /* Ajoute une bordure rouge */
+}
+
+/* Effet quand la souris passe sur le bouton */
+div a:hover {
+  background-color: red;
+  color: #000080; /* Inverse les couleurs au survol */
+}
