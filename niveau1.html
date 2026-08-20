@@ -2,14 +2,30 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <!-- C'est ici qu'on branche ton fichier CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Niveau 1</title>
+    <title>Niveau 1 - Ninjawu</title>
 </head>
-<body>
-    <h1>Bienvenue dans le Niveau 1 !</h1>
-    
-    <!-- On ajoute la classe pour que ton CSS reconnaisse le bouton -->
+<body class="body-niveau">
+
+    <h1>Niveau 1</h1>
+
+    <!-- Le cadre du niveau de jeu -->
+    <div class="zone-jeu">
+        <!-- Le départ (en haut à gauche) -->
+        <div class="ninja" id="joueur">🥷</div>
+
+        <!-- Les plateformes -->
+        <div class="plateforme p1"></div>
+        <div class="plateforme p2"></div>
+
+        <!-- Un coffre -->
+        <div class="coffre">🪙</div>
+
+        <!-- La sortie (en bas à droite) -->
+        <div class="sortie">🚪</div>
+    </div>
+
     <a href="index.html" class="bouton-retour">Retour à l'accueil</a>
+
 </body>
 </html>
