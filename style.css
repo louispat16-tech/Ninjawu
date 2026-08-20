@@ -36,3 +36,23 @@ div a:hover {
   background-color: red;
   color: #000080; /* Inverse les couleurs au survol */
 }
+/* Style du bouton Retour à l'accueil */
+.bouton-retour {
+  display: inline-block;
+  padding: 15px 30px; /* Taille de l'intérieur du bouton */
+  background-color: #000050; /* Fond sombre */
+  color: red; /* Écriture rouge */
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 25px; /* Pour le rendre plus gros */
+  border: 3px solid red; /* Bordure rouge */
+  margin-top: 50px; /* Pour le pousser plus bas sur la page ! */
+  text-align: center;
+}
+
+/* Effet au survol avec la souris */
+.bouton-retour:hover {
+  background-color: red;
+  color: #000080;
+}
