@@ -82,8 +82,8 @@ div a:hover {
 /* Le ninja (départ en haut à gauche) */
 #joueur {
     position: absolute;
-    top: 100px;
-    left: 22px;
+    top: 99px;
+    left: 20px;
     font-size: 60px;
 }
 
@@ -92,7 +92,7 @@ div a:hover {
     position: absolute;
     background-color: red;
     height: 15px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .p1 {
