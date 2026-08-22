@@ -91,7 +91,7 @@ div a:hover {
 .plateforme {
     position: absolute;
     background-color: red;
-    height: 15px;
+    height: 10px;
     border-radius: 3px;
 }
 
@@ -124,7 +124,7 @@ div a:hover {
     position: absolute;
     top: 118px;
     left: 230px;
-    font-size: 35px;
+    font-size: 15px;
 }
 
 /* La sortie (en bas à droite) */
@@ -132,7 +132,7 @@ div a:hover {
     position: absolute;
     bottom: -6px;
     right: 20px;
-    font-size: 9px;
+    font-size: 25px;
 }
 /* Style du panneau de boutons tactiles */
 .controles-tactiles {
