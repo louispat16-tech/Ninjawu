@@ -159,3 +159,15 @@ div a:hover {
     background-color: red;
     color: #000040;
 }
+/* La classe qui retourne le ninja vers la gauche */
+.ninja-tourne-gauche {
+    transform: scaleX(-1); /* <--- C'est la commande magique miroir ! */
+}
+
+/* Le style de base de ton ninja (tu peux ajuster la taille ici) */
+.ninja {
+    position: absolute;
+    width: 40px; /* Ajuste la largeur selon ton image */
+    height: auto; /* Conserve les proportions */
+    /* Autres styles de base... */
+}
