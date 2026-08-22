@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Pousse le titre en haut et le bouton en bas */
-    align-items: center; /* Centre les éléments au milieu */
+    align-items: center; /* Centre les éléments au milieu */ 
     padding: 20px;
 }
 
