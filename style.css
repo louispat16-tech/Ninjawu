@@ -122,16 +122,16 @@ div a:hover {
 /* Le coffre */
 .coffre {
     position: absolute;
-    top: 118px;
-    left: 230px;
-    width: 100px; /* <--- Utilise width pour définir sa taille en pixels (par exemple 30px, 40px, 50px...) */
+    top: 105px;
+    left: 215px;
+    width: 95px; /* <--- Utilise width pour définir sa taille en pixels (par exemple 30px, 40px, 50px...) */
     height: auto; /* <--- Permet de garder les bonnes proportions pour ne pas déformer ton image */
 }
 
 /* La sortie (en bas à droite) */
 .sortie {
     position: absolute;
-    bottom: 0px;
+    bottom: -3px;
     right: 20px;
     font-size: 60px;
 }
