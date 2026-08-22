@@ -167,7 +167,9 @@ div a:hover {
 /* Le style de base de ton ninja (tu peux ajuster la taille ici) */
 .ninja {
     position: absolute;
-    width: 40px; /* Ajuste la largeur selon ton image */
-    height: auto; /* Conserve les proportions */
-    /* Autres styles de base... */
+    width: 50px; /* Ajuste la taille si besoin */
+    height: auto;
+    
+    /* La solution magique pour le faire ressortir sur fond sombre : */
+    filter: drop-shadow(0px 0px 4px white); /* Ajoute un contour lumineux blanc autour du ninja */
 }
