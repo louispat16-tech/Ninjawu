@@ -82,8 +82,8 @@ div a:hover {
 /* Le ninja (départ en haut à gauche) */
 #joueur {
     position: absolute;
-    top: 90px;
-    left: 25px;
+    top: 100px;
+    left: 22px;
     font-size: 60px;
 }
 
@@ -167,7 +167,7 @@ div a:hover {
 /* Le style de base de ton ninja (tu peux ajuster la taille ici) */
 .ninja {
     position: absolute;
-    width: 50px; /* Ajuste la taille si besoin */
+    width: 100px; /* Ajuste la taille si besoin */
     height: auto;
     
     /* La solution magique pour le faire ressortir sur fond sombre : */
