@@ -124,7 +124,8 @@ div a:hover {
     position: absolute;
     top: 118px;
     left: 230px;
-    font-size: 15px;
+    width: 40px; /* <--- Utilise width pour définir sa taille en pixels (par exemple 30px, 40px, 50px...) */
+    height: auto; /* <--- Permet de garder les bonnes proportions pour ne pas déformer ton image */
 }
 
 /* La sortie (en bas à droite) */
@@ -132,7 +133,7 @@ div a:hover {
     position: absolute;
     bottom: -6px;
     right: 20px;
-    font-size: 25px;
+    font-size: 60px;
 }
 /* Style du panneau de boutons tactiles */
 .controles-tactiles {
@@ -152,6 +153,24 @@ div a:hover {
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
+}
+.controles {
+    position: absolute;
+    bottom: 20px;  /* Décollé du bas de l'écran */
+    left: 20px;   /* Décollé du bord gauche (mais pas trop) */
+    display: flex; /* Pour aligner les boutons côte à côte */
+    gap: 10px;     /* Petit espace entre les boutons */
+    opacity: 0.6;  /* Transparence : 1 c'est totalement opaque, 0 c'est invisible. 0.6 est parfait ! */
+}
+
+/* Optionnel : pour que les boutons soient jolis et faciles à cliquer */
+.controles button {
+    font-size: 24px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.3); /* Fond semi-transparent pour les boutons eux-mêmes */
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
 }
 
 /* Effet quand on appuie ou touche le bouton */
