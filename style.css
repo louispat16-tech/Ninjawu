@@ -124,14 +124,14 @@ div a:hover {
     position: absolute;
     top: 118px;
     left: 230px;
-    width: 40px; /* <--- Utilise width pour définir sa taille en pixels (par exemple 30px, 40px, 50px...) */
+    width: 100px; /* <--- Utilise width pour définir sa taille en pixels (par exemple 30px, 40px, 50px...) */
     height: auto; /* <--- Permet de garder les bonnes proportions pour ne pas déformer ton image */
 }
 
 /* La sortie (en bas à droite) */
 .sortie {
     position: absolute;
-    bottom: -6px;
+    bottom: 0px;
     right: 20px;
     font-size: 60px;
 }
